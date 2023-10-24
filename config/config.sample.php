@@ -25,6 +25,10 @@ return array(
     //是否发送失败记录给管理员
     'report' => false,
 
+    //token
+    'token' => '',
+    'log_path' => __DIR__ . DIRECTORY_SEPARATOR . 'log',
+
     //设置机器人对应开启的功能
     //不在列表中的是全部开启的
     'plugins' => array(

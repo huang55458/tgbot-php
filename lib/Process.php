@@ -66,6 +66,7 @@ class Process
         }
 
         foreach ($messages as $msg) {
+            cmmLog(['message' => $msg]);
             // 处理消息
             self::handler($msg);
         }

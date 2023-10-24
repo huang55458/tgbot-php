@@ -47,7 +47,7 @@ class Common
 
     /**
      * 得到路由配置表
-     * @return type
+     * @return array
      */
     public static function get_router()
     {
@@ -124,9 +124,9 @@ class Common
 
     /**
      * 设置配置信息
-     * @param type $key
-     * @param type $value
-     * @return type
+     * @param string $key
+     * @param string $value
+     * @return void
      */
     public static function set_config($key, $value)
     {
@@ -139,9 +139,9 @@ class Common
 
     /**
      * post 请求到第三方服务器，获取数据
-     * @param type $url
-     * @param type $data
-     * @param type $res_type
+     * @param string $url
+     * @param array $data
+     * @param string $res_type
      * @return type
      * @throws Exception
      */

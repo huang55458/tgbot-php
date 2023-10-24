@@ -17,6 +17,8 @@ require_once LIB_PATH . 'Telegram.php';
 require_once LIB_PATH . 'Db.php';
 require_once LIB_PATH . 'Process.php';
 require_once LIB_PATH . 'Base.php';
+require_once LIB_PATH . 'function.php';
 
 //设置时区
 date_default_timezone_set(Common::get_config('timezone', 'Asia/Shanghai'));
+Common::set_config('token', Common::get_config('token'));
